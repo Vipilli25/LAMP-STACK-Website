@@ -49,7 +49,7 @@ CREATE TABLE form
     college_name VARCHAR(55) NOT NULL, 
     name VARCHAR(255) NOT NULL, 
     year VARCHAR(255) NOT NULL,
-    PRIMARY KEY (id)
+    PRIMARY KEY (item_id)
     );
 ```
 ### PHP File Description
@@ -76,6 +76,6 @@ SELECT * FROM form;**
 ## Deployment
 visit the created website by typing : localhost/vishal/index.php
 ## Tech Stack
-**Front-end:** HTML5, CSS3 \
+**Front-end:** HTML5,Bootstrap \
 **Back-end:** Php \
 **Database:** Mysql
